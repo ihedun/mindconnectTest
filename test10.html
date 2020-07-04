@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        //test 10
+        // define the click handler for all buttons
+        $( document ).on( "click", "button", function() {
+            alert( "Button Clicked!" )
+        });
+        /* ... some time later ... */
+        // dynamically add another button to the page
+        $( "html" ).append( "<button>Click Alert!</button>" );
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // test 8
+    var arr = [1, 2, 3, 5, 1, 5, 9, 1, 2, 8];
+    function unique (arr){
+        let result = [];
+
+        for (let str of arr) {
+            if (!result.includes(str)) {
+                result.push(str);
+            }
+        }
+
+        return result;
+    };
+    console.log(unique(arr));
+
+    // test 9
+    function duplicate (arr, times){
+
+        var arrays = Array.apply(null, new Array(times));
+
+        arrays = arrays.map(function() { return arr });
+
+        return [].concat.apply([], arrays);
+
+    };
+
+    console.log(duplicate([1, 2, 3, 4, 5],3));
+
+</script>
+</body>
+</html>

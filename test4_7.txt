@@ -1,0 +1,29 @@
+# 4
+1 eli 98
+2 moshe null
+3 yossi 55
+
+# 5
+NOW() will fetch the current date and time both in format ‘YYYY-MM_DD HH:MM:SS’
+while CURRENT_DATE() will fetch the date of the current day ‘YYYY-MM_DD’.
+
+select now(),current_date();
+
+-- will give
+-- now()                    current_date()
+-- 6/10/2014 2:50:04 AM     6/10/2014 12:00:00 AM
+
+# 6
+The UNION operator is used to combine the result-set of two or more SELECT statements
+
+SELECT column_name FROM table1
+UNION
+SELECT column_name FROM table2;
+
+# 7
+1)
+SELECT c.name as costomer_name, c.city, s.name as salesman_name FROM customer c
+LEFT JOIN salesman s ON s.id = c.salesman_id WHERE s.commission BETWEEN 0.12 AND 0.14
+2)
+SELECT * FROM salesman s LEFT JOIN customer c ON s.id = c.salesman_id WHERE salesman_id is null
+

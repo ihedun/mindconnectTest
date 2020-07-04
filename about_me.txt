@@ -1,0 +1,19 @@
+I have been working in "True-ag" for 2 years and 9 months.
+Ive worked with various frameworks and tools.
+I've developed sites from scratch and also dealt with support sites.
+Basically, my task was to develop corporate websites and online stores.
+I have been faced with tasks on sites that were written without using any frameworks.
+I also improved the translation system that we used for online stores.
+I've developed a module for constructor and custom forms for web pages.
+I've developed templates for online store sites and corporate sites that allow you to develop sites much faster.
+I've worked with parsing third-party sites and Excel documents.
+I've worked with 1С synchronization.
+I've worked with different API's.
+I've connected to site payment systems such as PayPal, Belgazprombank, Fondy, and LIQPAY.
+I consider myself a leader in my company and team player with excellent communication skills.
+Over the last year of my work,
+I've had to make many decisions myself since I took the place of a senior programmer in our company after his dismissal.
+I don’t have any sites on the github, but I have several public ones on the bitbucket:
+    https://bitbucket.org/buhryk/
+My linkedin link is
+    https://www.linkedin.com/in/buhryk

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <button type="button" class="btn btn-primary">
+        +1 <span class="badge badge-light">0</span>
+    </button>
+
+    <script>
+        $(document).ready(function() {
+            $(".btn").click(function() {
+                var val = parseInt($('.badge').text());
+
+                $('.badge').text(val + 1);
+            });
+        });
+    </script>
+</body>
+</html>
